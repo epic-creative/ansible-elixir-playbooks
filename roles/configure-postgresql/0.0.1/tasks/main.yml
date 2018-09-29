@@ -4,6 +4,7 @@
       name: "{{ username }}"
       password: "{{ db_password }}"
       role_attr_flags: SUPERUSER
+      encrypted: yes
     become: yes
     become_user: postgres
 

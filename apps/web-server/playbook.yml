@@ -37,11 +37,11 @@
 
     - role: phoenix-app/0.0.1
       username: phoenix
-      app_name: phoenix_website
+      app_name: mw
 
     - role: lets_encrypt/0.0.1
-      app_name: phoenix_website
-      lets_encrypt_contact_email: admin@lunarlogic.io
+      app_name: mw 
+      lets_encrypt_contact_email: domainadmin@modernweb.com
       lets_encrypt_environment: production
 
     # This must be the last one role to log info about successfully provisioned machine.
