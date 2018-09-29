@@ -10,7 +10,7 @@
     debconf:
       name: postifx
       question: "postfix/mailname"
-      value: "{{ domains[0] }}"
+      value: "{{ ansible_fqdn }}"
       vtype: string
 
   - name: "install aptitude"
