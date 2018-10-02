@@ -21,10 +21,9 @@
 
     - role: install-build-essential/0.0.1
 
-    - role: install_asdf/0.0.1
+    - role: install_elixir/0.0.1
 
-    # - role: install_elixir/0.0.1
-    # - role: install_nodejs/0.0.1
+    - role: install_nodejs/0.0.1
 
     - role: user/0.0.1
       username: builder
